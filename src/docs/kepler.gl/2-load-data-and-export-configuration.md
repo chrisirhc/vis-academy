@@ -1,3 +1,5 @@
+<!-- INJECT:"KeplerglLoadData" heading -->
+
 <ul class='insert learning-objectives'>
   <li>Load data and export configuration</li>
 </ul>
@@ -83,8 +85,7 @@ exportConfiguration() {
 	  mapStyle, visState, mapState, uiState
 	});
 
-	console.log('Kepler.gl instance configuration');
-	console.log(keplerGlConfig);
+	return keplerGlConfig;
 }
 ```
 
